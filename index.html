@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Línea Temporal</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="sidebar">
+            <h2>Información Adicional</h2>
+            <div id="info">
+                <h3>Nombre del Filósofo</h3>
+                <p id="nombre"></p>
+                <h3>Año de Nacimiento y Muerte</h3>
+                <p id="fechas"></p>
+                <h3>Escuela</h3>
+                <p id="escuela"></p>
+                <h3>Influencias</h3>
+                <p id="influencias"></p>
+                <h3>Lista de Obras Más Importantes</h3>
+                <ul id="obras"></ul>
+                <h3>Conceptos Más Útiles</h3>
+                <ul id="conceptos"></ul>
+                <h3>Retrato</h3>
+                <img id="retrato" src="" alt="Retrato del Filósofo" style="width:100%;">
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="title">Línea Temporal Filosófica</div>
+            <div id="timeline" class="timeline"></div>
+            <div id="mapa" class="mapa"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
